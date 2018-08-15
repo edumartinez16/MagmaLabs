@@ -1,0 +1,79 @@
+body
+{
+  background-image: url('../img/fondo.jpg');
+}
+.img-bot{
+  display: flex;
+  justify-content: center;
+}
+footer p{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+li, li a{
+  color: white;
+  list-style: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.logo
+{
+  width: 80%;
+  height: 60px;
+}
+.logo-2{
+  width: 5%;
+  height: 5%;
+  margin-top: 80px;
+}
+.main-title{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+.main{
+  text-align: center;
+}
+.nav-bar{
+  display: flex;
+  margin-bottom: 20px;
+}
+.nav-bar-logo{
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+.nav-bar-menu{
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  margin-top: 20px;
+}
+.principal
+{
+  color: tomato;
+  align-content: center;
+  font-size: 85%;
+}
+ul{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.red{
+  color: red;
+}
+.secundario{
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.secundario ul li::before{
+  color: red;
+  content: "• ";
+}
+.secundario ul{
+  font-size: 25px;
+}
